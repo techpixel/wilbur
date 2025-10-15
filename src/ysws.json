@@ -1,0 +1,13 @@
+[
+    {
+        "name": "fanpage",
+        "description": "build a project for your fandom, get merch",
+        "end_date": "2025-10-17",
+        "image": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3eebf346fdd4adbc94fc25ad11d90077759b425c_image.png",
+        
+        "banner": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b9ac83c2025ef408a2b9a5b1bb8bb51d8c226a58_image.png",
+        "emoji": ":fanpage:",
+        "incomplete_task": ":empty_star:",
+        "complete_task": ":star:"
+    }
+]

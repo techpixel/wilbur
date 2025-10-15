@@ -1,0 +1,21 @@
+{
+  "name": "wilbur",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "start": "bunx prisma migrate deploy && bun run index"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.0",
+    "@slack/bolt": "^4.5.0",
+    "jsx-slack": "^6.1.2",
+    "prisma": "^6.17.0"
+  }
+}
