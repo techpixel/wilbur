@@ -10,7 +10,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "start": "bunx prisma migrate deploy && bun run index"
+    "start": "bunx prisma migrate deploy && bun run src/index"
   },
   "dependencies": {
     "@prisma/client": "^6.17.0",
