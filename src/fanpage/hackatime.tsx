@@ -7,7 +7,7 @@ import { FanpageSubmit } from './fanpage';
 const queryFanpage = async (userId: string) => await queryStats({
     userId,
     startDate: new Date('2025-10-03'),
-    endDate: new Date('2025-10-17')
+    endDate: new Date('2025-10-24')
 });
 
 const HackatimeSelect = (parentViewId: string, stats: Stats, alreadyLinked: string | null) => (

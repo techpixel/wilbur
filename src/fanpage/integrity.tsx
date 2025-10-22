@@ -11,7 +11,7 @@ const FanpageIntegrity = (parentViewId: string) => (
         </Section>
         <Section>
             <Mrkdwn>
-                &gt; Don’t cheat the time tracking system. No bots, no fake key presses, no UI manipulation. If you do, you’ll be banned from Hackatime and other participating YSWS / events / programs\n
+                &gt; Don’t cheat the time tracking system. No bots, no fake key presses, no UI manipulation. If you do, you’ll be banned from Hackatime and other participating YSWS / events / programs
             </Mrkdwn>
         </Section>
         <Section>
