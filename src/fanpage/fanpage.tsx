@@ -55,6 +55,13 @@ export const FanpageSubmit = (participant: Participant) => (
                         buttonText='Link Repo'
                         editButtonText='Change Repo'
                     />
+                    <EditableStep
+                        description='(Optional) Add an art/hardware journal'
+                        completed={Boolean(participant.journalLink)}
+                        actionId='open-journal-link'
+                        buttonText='Link Journal'
+                        editButtonText='Change Journal'
+                    />                    
                 </>
             ) : (
                 <Section>

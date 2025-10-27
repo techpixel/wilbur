@@ -21,5 +21,6 @@ model Participant {
   acceptedIntegrity Boolean  @default(false)
   hackatimeProject  String?
   gitLink           String?
+  journalLink       String?
   submitted         Boolean  @default(false)
 }

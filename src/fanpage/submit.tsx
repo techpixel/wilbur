@@ -30,7 +30,7 @@ const FanpageSubmitConfirm = (participant: Participant, parentViewId: string) =>
                         "emoji": true
                     },
                     "style": "primary",
-                    "url": `https://submit.hackclub.com/fanpage?hackatime_project_name=${encodeURIComponent(participant.hackatimeProject || '')}&git_url=${encodeURIComponent(participant.gitLink || '')}&slack_id=${encodeURIComponent(participant.slackId)}`,
+                    "url": `https://submit.hackclub.com/fanpage?hackatime_project_name=${encodeURIComponent(participant.hackatimeProject || '')}&git_url=${encodeURIComponent(participant.gitLink || '')}&slack_id=${encodeURIComponent(participant.slackId)}&journal_link=${encodeURIComponent(participant.journalLink || '')}`,
                     "action_id": "fanpage-submitted"
                 }
             }
